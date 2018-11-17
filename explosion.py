@@ -1,5 +1,6 @@
 import random
 import math
+import pgzrun
 
 # the size of the screen
 WIDTH = 800
@@ -100,3 +101,4 @@ def explode_random():
 
 # call the random explosion function every 1.5 seconds
 clock.schedule_interval(explode_random, 1.5)
+pgzrun.go()
